@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Copy as plain text web extension",
+    "description": "A web extension that allows to copy text to clipboard removing all formatting.",
+    "version": "0.1",
+    "homepage_url": "https://github.com/robyf/copy-plain-text",
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "clipboardWrite"
+    ]
+}
